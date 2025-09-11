@@ -1,4 +1,5 @@
 #This is the name exercise in Python Crash Course
+#And it starts off by naming the name variable
 
 name = "ada lovelace"
 #These are the various methods in this exercise
