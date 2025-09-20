@@ -4,4 +4,4 @@ message = "once said, 'The person who never made a mistake never tried anything 
 print(famous_person, message) # I figured out that using a comma here would work. 
 # Another way of doing this would be to use the f-string
 print(f"{famous_person},{message}")
-# Both ways produce similar results. 
+# Both ways produce the exact same results. 
