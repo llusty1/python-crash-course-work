@@ -30,3 +30,20 @@ message5 = ("Dear Mr. " + guest[5] + " we humbly invite you to dinner. ")
 print(message0)
 print(message2)
 print(message5)
+# It seems that there can only be two guests I can invite to dinner
+print("I can only invite two guests to dinner.")
+print(guest)
+popped_guest1 = guest.pop()
+print(popped_guest1)
+popped_guest2 = guest.pop()
+print(popped_guest2)   
+popped_guest3 = guest.pop(0)
+print(popped_guest3)
+popped_guest4 = guest.pop(1)
+print(popped_guest4)
+print(guest)
+print(message1)
+print(message3)
+del(guest[0]) # Here we del the guest at position 0
+del(guest[0]) # After that the guest onlky guest that's left occupies position 0. So we delete this guest to give us an empty list. 
+print(guest) # Here is proof that the listis empty. 
