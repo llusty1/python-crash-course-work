@@ -12,3 +12,6 @@ print(len(magicians))
 magicians = ["david", "alice", "bowie"]
 for magician in magicians:
     print(magician.title() + ", that was a great trick. A very excellent trick, like no one has ever seen! ")
+    print("I can't wait to see your next trick very soon, " + magician.title() + ".\n")
+# Now we will insert a thank you after this initial code.
+print("\nThank you everyone, that was a great magic show. ")
