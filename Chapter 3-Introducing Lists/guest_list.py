@@ -47,3 +47,6 @@ print(message3)
 del(guest[0]) # Here we del the guest at position 0
 del(guest[0]) # After that the guest onlky guest that's left occupies position 0. So we delete this guest to give us an empty list. 
 print(guest) # Here is proof that the listis empty. 
+
+# Now we will verify the empty list by printing out it's length
+print(len(guest)) 
