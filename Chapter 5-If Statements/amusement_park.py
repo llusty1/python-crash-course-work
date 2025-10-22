@@ -19,7 +19,11 @@ if age < 4:
 elif age < 18:
     price = 5
 
-else:
+# Here we added a loop that produces a discount for seniors by elif age < 65. 
+elif age < 65:
     price = 10
+
+else:
+    price = 5
 
 print("Your admission cost is $" + str(price) + ".")
