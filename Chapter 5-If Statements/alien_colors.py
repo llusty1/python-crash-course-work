@@ -4,7 +4,7 @@ if "green" in alien_colors:
     print("You have earned 5 points!")
 elif "blue" in alien_colors:
     print("You have earned 10 point!")
-elif "yellow" in alien_colors: # Even though yellow is in the list it doesn't work becaues elif rules.
+elif "yellow" in alien_colors: # Even though yellow is in the list it doesn't work because of elif rules.
     print("Yellow is mellow.")
 
 print("Lil' Flip says game over.")
