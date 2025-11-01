@@ -1,4 +1,4 @@
-current_users = ["John", "Rob", "Mary-Elizabeth", "Kathryn", "Lydia"]
+current_users = ["Rob", "Mary-Elizabeth", "Kathryn", "John",  "Lydia"]
 new_users = ["John", "Rob", "Johnny", "Fender", "Gibson"]
 
 for new_user in new_users:
@@ -8,7 +8,7 @@ for new_user in new_users:
         print(new_user + " you're good to go.")
 
 # Now we will add the list above and print out the current users:
-current_users = ["John", "Rob", "Mary-Elizabeth", "Kathryn", "Lydia"]
+current_users = ["Rob", "Mary-Elizabeth", "Kathryn", "John", "Lydia"]
 
 print("\nCurrent Users: ")
 for user in current_users:
