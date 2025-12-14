@@ -1,4 +1,4 @@
-# Here is a dictionary a Similar Objects
+# Here is a dictionary a Similar Objects:
 favorite_languages = {
     "jen": "python",
     "sarah": "c",
@@ -9,3 +9,11 @@ favorite_languages = {
 print("Sarah's favorite language is " + 
       favorite_languages["sarah"].title() + 
       ".")
+
+#Here we will add a line break:
+print()
+
+#Here we will loop through the dictionary that's been created:
+for name, language in favorite_languages.items():
+    print(name.title() + "'s favorite language is " +
+    language.title() + ".")
