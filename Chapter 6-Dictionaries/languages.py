@@ -8,10 +8,8 @@ favorite_languages = {
 
 print("Sarah's favorite language is " + 
       favorite_languages["sarah"].title() + 
-      ".")
+      ".\n")
 
-#Here we will add a line break:
-print()
 
 #Here we will loop through the dictionary that's been created:
 for name, language in favorite_languages.items():
