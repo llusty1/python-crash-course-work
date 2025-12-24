@@ -12,7 +12,7 @@ for alien in aliens:
 aliens = []
 
 # Make 30 green aliens:
-for alient_number in range(30):
+for alien_number in range(30):
     new_alien = {"color": "green", "points": 5, "speed": "slow"}
     aliens.append("new_alien")
 
@@ -22,4 +22,4 @@ for alien in aliens[:5]:
 print("...")
 
 # Let's show how many aliens have been created:
-print("Total number of aliens: " + str(len(aliens)))
+print("Total number of aliens:" + str(len(aliens)))
